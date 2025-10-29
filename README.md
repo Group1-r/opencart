@@ -27,7 +27,7 @@ The project includes various types of software testing, both manual and automate
 -Postman: API testing and validation
 -MySQL: Database verification and query testing
 -JMeter: Performance and load testing
--Excel / Google Sheets: Test cases and bug reports documentation
+-Google Sheets: Test cases and bug reports documentation
 
 📄 #Project Deliverables:
 -🧾 Test Plan
