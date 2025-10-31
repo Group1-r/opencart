@@ -1,45 +1,48 @@
-# opencart
-🎓 Graduation Project – Testing the Demo OpenCart Website
- About the Website
+# OpenCart Graduation Project – Demo Website Testing
 
-🎇🎇Demo OpenCart is a demo version of the OpenCart e-commerce platform,
-which allows users to build and manage online stores easily.
-It includes main e-commerce features such as product management, shopping cart, checkout,
-user registration and login, and an admin dashboard for store management.
-This demo site is used in our project to perform different types of testing
-and ensure the quality and performance of all main features.
+## Overview
+This project is part of our Graduation Project conducted by **Group 1**, focusing on comprehensive testing of the Demo OpenCart e-commerce website.  
+The goal is to ensure the platform functions correctly across all modules, including frontend and backend, while maintaining high-quality standards.
 
-🎯 Project Overview
-This repository is part of our Graduation Project,
-where our team Group 1 performs complete testing on the Demo OpenCart website.
-The goal is to test the system from end to end — both frontend and backend —
-to make sure it functions correctly, efficiently, and meets quality standards.
+## About the Demo Website
+Demo OpenCart provides a fully functional e-commerce platform for testing purposes. Key features include:  
+- Product catalog management  
+- Shopping cart and checkout process  
+- Customer registration and login  
+- Admin dashboard for store management  
 
-The project includes various types of software testing, both manual and automated:
--✅ Manual Testing (UI & Functional)
--⚙️ API Testing using Postman
--🧮 Database Testing using MySQL
--📊 Performance Testing using JMeter
--🪲 Bug Reporting and documentation
+This environment allows us to perform various types of testing and validate the overall system performance.
 
-⚙️ #Tools Used:
--GitHub: Version control and collaboration between team members
--Postman: API testing and validation
--MySQL: Database verification and query testing
--JMeter: Performance and load testing
--Google Sheets: Test cases and bug reports documentation
+## Testing Scope
+We applied multiple testing approaches to cover all aspects of the website:  
+1. **Manual Testing:** UI and functional verification of core features  
+2. **API Testing:** Using Postman for endpoint validation and response checks  
+3. **Database Testing:** Using MySQL to verify data integrity and relationships  
+4. **Performance Testing:** Using JMeter to assess response time and load handling  
+5. **Bug Tracking & Documentation:** Recording issues and tracking resolutions
 
-📄 #Project Deliverables:
--🧾 Test Plan
--✅ Test Cases (UI, Functional, API, and DB)
--🪲 Bug Reports
--⚙️ Postman Collections & API Test Results
--📊 JMeter Performance Test Scripts
--🧮 SQL Queries for Data Validation
+## Tools Utilized
+- **GitHub:** Version control and team collaboration  
+- **Postman:** API requests and validation  
+- **MySQL:** Database query execution and verification  
+- **JMeter:** Performance and stress testing  
+- **Google Sheets:** Organizing test cases and documenting results  
+- **Jira:** Task management, issue tracking, and sprint planning  
 
-👩‍💻 #Team – Group 1
-We are a team of six software testers working together to plan, execute,
-and report all testing activities for the Demo OpenCart website
-as part of our Graduation Project.
-Our goal is to apply real-world testing practices and ensure a deep understanding
-of quality assurance processes in software development.
+## Project Deliverables
+- Test Plan  
+- Complete Test Cases (UI, Functional, API, Database)  
+- Bug Reports  
+- Postman Collections & API Test Results  
+- JMeter Performance Scripts  
+- SQL Queries for Data Validation  
+- Jira Dashboards and Task Tracking
+
+## Team Members – Group 1
+Our team of six software testers is responsible for:  
+- Planning, executing, and documenting all testing activities  
+- Ensuring the system meets performance and quality expectations  
+- Applying professional QA methodologies  
+- Managing tasks and issues efficiently using Jira
+
+This project demonstrates our ability to apply real-world software quality assurance practices and comprehensive testing strategies.
