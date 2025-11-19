@@ -21,18 +21,17 @@ public class CartPage extends BasePage {
 
     // ---------- Actions ----------
 
-    // فتح صفحة الكارت
+
     public void openCart() {
         click(cartLink);
     }
 
-    // هل الكارت فيه منتجات؟
+
     public boolean isCartNotEmpty() {
         List<WebElement> rows = driver.findElements(cartRows);
-        return rows.size() > 1; // أول صف عنوان الجدول — المنتجات تبدأ من الصف الثاني
+        return rows.size() > 1; 
     }
-
-    // الضغط على delete لأول منتج
+l
     public void deleteFirstProduct() {
         List<WebElement> deletes = driver.findElements(deleteButtons);
         if (!deletes.isEmpty()) {
@@ -40,12 +39,12 @@ public class CartPage extends BasePage {
         }
     }
 
-    // الضغط على Place Order
+     Place Order
     public void clickPlaceOrder() {
         click(placeOrderBtn);
     }
 
-    // جلب إجمالي السعر
+ 
     public int getTotalPrice() {
         String priceText = driver.findElement(totalPrice).getText();
         return Integer.parseInt(priceText);
