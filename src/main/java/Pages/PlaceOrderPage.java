@@ -53,7 +53,7 @@ public class PlaceOrderPage extends BasePage {
     public String confirmPurchase() {
         click(purchaseBtn);
 
-        // بعد الضغط بتظهر رسالة نجاح
+    
         return read(successMessage);
     }
 
