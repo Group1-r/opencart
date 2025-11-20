@@ -1,1 +1,35 @@
+Feature: Demoblaze E-commerce Automation
 
+  Scenario: User Signup
+    Given user is on home page
+    When user clicks signup
+    And user enters username "test123"
+    And user enters password "test123"
+    And user clicks signup button
+    Then user should see signup success alert
+
+  Scenario: User Login
+    Given user is on home page
+    When user clicks login
+    And user enters username "test123"
+    And user enters password "test123"
+    And user clicks login button
+    Then user should be logged in
+
+  Scenario: Add product to cart
+    Given user is logged in
+    When user selects product "Samsung galaxy s6"
+    And user clicks add to cart
+    Then product should be added to cart
+
+  Scenario: Place order
+    Given user is on cart page
+    When user clicks place order
+    And user enters order details
+    And user confirms purchase
+    Then order should be successful
+
+  Scenario: Logout
+    Given user is logged in
+    When user clicks logout
+    Then user should be logged out
