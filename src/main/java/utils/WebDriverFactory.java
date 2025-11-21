@@ -12,7 +12,6 @@ public class WebDriverFactory {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         options.addArguments("--remote-allow-origins=*");
-        // options.addArguments("--headless=new"); // فعلّي لو عايزة headless
         return new ChromeDriver(options);
     }
 }
