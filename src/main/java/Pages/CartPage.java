@@ -17,10 +17,8 @@ public class CartPage extends BasePage {
     private By placeOrderBtn = By.xpath("//button[text()='Place Order']");
     private By deleteButtons = By.xpath("//a[text()='Delete']");
     private By totalPrice = By.id("totalp");
-    private By cartLink = By.id("cartur"); // رابط الكارت
-
-    // ---------- Actions ----------
-
+    private By cartLink = By.id("cartur"); 
+    // Actions
 
     public void openCart() {
         click(cartLink);
